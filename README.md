@@ -1,10 +1,10 @@
-# 🚀 Modern Data Platform for Real-time Analytics & CDP
+# Modern Data Platform for Real-time Analytics & CDP
 
 ## 📌 Overview
 
 This project is a modern, scalable data platform designed to ingest, process, and serve data in both real-time and batch for analytics, BI, APIs, and CDP/Loyalty use cases.
 
-The platform follows a **lakehouse-oriented architecture**, combining streaming (Kafka + Spark Streaming) and batch processing (Spark + Airflow), with a Modern Data Lake (MinIO + Iceberg) as the central storage layer and a Data Warehouse (ClickHouse/PostgreSQL) as the serving layer.
+The platform follows a **lambda architecture**, combining streaming (Kafka + Spark Streaming) and batch processing (Spark + Airflow), with a Modern Data Lake (MinIO + Iceberg) as the central storage layer and a Data Warehouse (ClickHouse/PostgreSQL) as the serving layer.
 
 It is built to support:
 - **High-throughput ingestion** (CDC, APIs, web crawling)
