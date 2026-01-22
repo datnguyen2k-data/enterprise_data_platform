@@ -25,8 +25,8 @@ It is built to support:
 | **CDC** | [cdc_pipeline](https://github.com/datnguyen2k-data/cdc_pineline) | Debezium + Kafka Connect |
 | **Ingestion API** | [ingest_data](https://github.com/datnguyen2k-data/ingest_data) | API-based ingestion + Golang |
 | **API Layer** | [api_layer](https://github.com/datnguyen2k-data/api_layer) | Data-as-a-Service + NestJS |
-| **CDP** | [dn_cdp](https://github.com/datnguyen2k-data/dn_cdp) | Customer Data Platform + Python|
-| **AI Agent** | [mcp](https://github.com/datnguyen2k-data/mcp) | AI access to warehouse |
+| **CDP** | [dn_cdp](https://github.com/datnguyen2k-data/dn_cdp) | Customer Data Platform + Java + TypeScript |
+| **AI Agent** | [mcp](https://github.com/datnguyen2k-data/mcp) | AI access to warehouse + Python|
 | **Data Platform Manager Backend** | [platform_manager_backend](https://github.com/datnguyen2k-data/platform_manager_backend) | Postgres + NestJS|
 | **Data Platform Manager Frontend** | [platform_manager_frontend](https://github.com/datnguyen2k-data/platform_manager_frontend) | Nextjs|
 
