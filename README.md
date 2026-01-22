@@ -15,6 +15,23 @@ It is built to support:
 
 ---
 
+## 📂 Repositories
+
+| Domain | Repo | Description |
+|------|------|-------------|
+| **Infrastructure** | [data_services](https://github.com/datnguyen2k-data/data_services) | Docker, Docker Compose, MinIO, Iceberg, ClickHouse/PostgreSQL, Airflow, Spark, Debezium, Kafka Connect, Kafka, Kafka Schema Registry |
+| **Streaming** | [spark-stream-processing](https://github.com/datnguyen2k-data/spark_stream_processing) | Kafka + Spark Streaming |
+| **Batch Processing** | [batch-processing](https://github.com/datnguyen2k-data/batch_processing) | Spark |
+| **CDC** | [cdc_pipeline](https://github.com/datnguyen2k-data/cdc_pineline) | Debezium + Kafka Connect |
+| **Ingestion API** | [ingest_data](https://github.com/datnguyen2k-data/ingest_data) | API-based ingestion + Golang |
+| **API Layer** | [api_layer](https://github.com/datnguyen2k-data/api_layer) | Data-as-a-Service + NestJS |
+| **CDP** | [dn_cdp](https://github.com/datnguyen2k-data/dn_cdp) | Customer Data Platform + Python|
+| **AI Agent** | [mcp](https://github.com/datnguyen2k-data/mcp) | AI access to warehouse |
+| **Data Platform Manager Backend** | [platform_manager_backend](https://github.com/datnguyen2k-data/platform_manager_backend) | Postgres + NestJS|
+| **Data Platform Manager Frontend** | [platform_manager_frontend](https://github.com/datnguyen2k-data/platform_manager_frontend) | Nextjs|
+
+---
+
 ## 🏗️ Architecture Overview
 
 ![Architecture Overview](asset/data_platform.png)
